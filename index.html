@@ -3,11 +3,11 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Notifical Dev.Maza</title>
-	<link rel="stylesheet" type="text/css" href="push.css">
+	<link rel="stylesheet" type="text/css" href="./push.css">
 	<p id="ids">123123123</p>
 </head>
 <body>
-    <script src="push.js"></script>
+    <script src="./push.js"></script>
         <script>
                 cef.on("notifical:player:data", (headers, text, colors, hide, time) => {
                         Toast.add({header: headers, body: text, color: '#' + colors, autohide: hide, delay: time});
