@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Medium"; 
+    src: url("./fonts/medium.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+.time-icon
+{
+    background: url('images/time.png');
+    width: 19px;
+    height: 19px;
+    left:1400px;
+    top:50px;
+    position: relative;
+
+}
+.text
+{
+    display: inline-block;
+    color:white;
+    font-family: Medium;
+    width: 100px;
+    position: relative;
+    left: 1430px;
+    top:20px;
+
+}
+.logo-icon
+{
+    background: url('images/logo.png');
+    width: 53px;
+    height: 53px;
+    position: relative;
+    left:1550px;
+    top:-30px;
+}
